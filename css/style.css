@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 .top-line {
     height: 3px;
     background-color: black;
@@ -29,7 +28,6 @@ body {
     font-weight: bold;
     margin: 0 10px;
 }
-
 
 .header-main {
     padding: 20px 40px;
@@ -58,7 +56,6 @@ body {
     font-size: 12px;
     font-weight: bold;
 }
-
 
 .search-section {
     display: flex;
@@ -95,12 +92,10 @@ body {
     font-size: 18px;
 }
 
-
 .banner img, 
 .boots-section img {
     width: 100%;
 }
-
 
 .product-grid {
     display: flex;
@@ -125,7 +120,6 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
-
 
 .promo-section {
     display: flex;
