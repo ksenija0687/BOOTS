@@ -60,6 +60,8 @@ body {
 .search-section {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .search-container {
@@ -201,6 +203,7 @@ body {
     width: 100%;
 }
 
+
 .bottom-feature {
     display: flex;
     align-items: flex-end;
@@ -232,6 +235,304 @@ body {
     display: block;
     text-align: center;
     margin: 25px auto 0;
+}
+
+.sneakers-promo {
+    width: 100%;
+    margin-top: 40px;
+    background: #f0f0f5;
+    overflow: hidden;
+    position: relative;
+}
+
+.sneakers-content {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sneakers-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.sneakers-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sneakers-promo img {
+    width: 50%;
+    float: right;
+}
+
+.always-nine-west {
+    width: 100%;
+    margin-top: 40px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    min-height: 500px;
+}
+
+.always-nine-west img {
+    width: 50%;
+    float: left;
+}
+
+.always-content {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+.always-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.always-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.watch-promo {
+    width: 100%;
+    margin-top: 40px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    min-height: 500px;
+}
+
+.watch-promo img {
+    width: 50%;
+    float: right;
+}
+
+.watch-content {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.watch-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.watch-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.handbag-promo {
+    width: 100%;
+    margin-top: 40px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    min-height: 500px;
+}
+
+.handbag-promo img {
+    width: 50%;
+    float: left;
+}
+
+.handbag-content {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+.handbag-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.handbag-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.social-promo {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.social-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.social-grid img {
+    width: calc(25% - 15px);
+    height: auto;
+}
+
+.social-content {
+    text-align: center;
+}
+
+.social-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.social-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.explore-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.explore-link:hover {
+    opacity: 0.8;
+}
+
+.promo-text {
+    width: 100%;
+    background: #d8e0e8;
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.promo-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.promo-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.promo-text .bold {
+    font-weight: bold;
+}
+
+.promo-text .small {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 60px 40px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-form {
+    margin-bottom: 20px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.sign-up-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#rfimages {
+    height: 30px;
+    width: auto;
 }
 
 
